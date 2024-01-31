@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "swe-hw3-leetcode"
+version = "0.1.0"
+description = ""
+authors = ["thanawinboon <pokepat27@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pre-commit = "^3.6.0"
+pytest = "^8.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
